@@ -21,7 +21,10 @@ A simple productivity app written in Flutter to track tasks with priorities, sum
 - GitHub Actions workflow included (`.github/workflows/ci.yml`)
 - Runs tests and builds APK on push and PR to `main`
 
-## How to Run
+## Installation
 ```bash
+git clone git@github.com:Um-chankreas/todo_app.git
+cd todo_app
 flutter pub get
 flutter run
+
