@@ -14,4 +14,5 @@ class AppRoute {
     name: 'create-task',
     path: 'create-task',
   );
+  static AppRoute taskList = AppRoute(name: 'task-list', path: 'task-list');
 }

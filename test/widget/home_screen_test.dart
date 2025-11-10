@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:todo_app/screens/create_task/widgets/pie_chat_task.dart';
-import 'package:todo_app/screens/create_task/widgets/priority_barchat.dart';
-import 'package:todo_app/screens/home/home_screen.dart';
-import 'package:todo_app/screens/create_task/provider/task_provider.dart';
 import 'package:todo_app/provider/theme_provider.dart';
 import 'package:todo_app/databases/app_database.dart';
 import 'package:drift/native.dart';
+import 'package:todo_app/screens/dashboard/dashboard.dart';
+import 'package:todo_app/screens/task/provider/task_provider.dart';
+import 'package:todo_app/screens/task/widgets/pie_chat_task.dart';
+import 'package:todo_app/screens/task/widgets/priority_barchat.dart';
 
 void main() {
   late AppDatabase db;
@@ -36,7 +36,7 @@ void main() {
         ChangeNotifierProvider<TaskProvider>.value(value: taskProvider),
         ChangeNotifierProvider<ThemeProvider>.value(value: themeProvider),
       ],
-      child: const MaterialApp(home: HomeScreen()),
+      child: const MaterialApp(home: Dashboard()),
     );
   }
 

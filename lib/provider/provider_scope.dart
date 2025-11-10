@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_app/databases/app_database.dart';
 import 'package:todo_app/provider/theme_provider.dart';
-import 'package:todo_app/screens/create_task/provider/task_provider.dart';
+import 'package:todo_app/screens/task/provider/task_provider.dart';
 
 class ProviderScope extends StatelessWidget {
   final Widget child;
