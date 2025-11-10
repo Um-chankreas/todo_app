@@ -7,10 +7,11 @@ A simple productivity app written in Flutter to track tasks with priorities, sum
 - Summary cards (Total, Completed, Pending, High Priority)
 - Pie chart for task completion
 - Bar chart for task priority
+- Upcomming task filter by priority level
 - Dark mode support
 
 ## Requirements
-- Flutter latest stable
+- Flutter version 3.35.7 (stable)
 - Dart >= 3.0
 
 ## Testing
